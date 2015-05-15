@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3F3CB41ACE431D00BB413B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F3CB31ACE431D00BB413B /* GLKit.framework */; };
+		4DC6793D1B05D08000A89A06 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */; };
+		4DC6793E1B05D08B00A89A06 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */; };
+		4DC6793F1B05D09500A89A06 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F381A1ACBDB9A00BB413B /* AssetsLibrary.framework */; };
+		4DC679491B05DC6800A89A06 /* VideoRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DC679461B05DC6800A89A06 /* VideoRecorder.mm */; };
+		4DC6794A1B05DC6800A89A06 /* VideoRecorderBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DC679481B05DC6800A89A06 /* VideoRecorderBridge.mm */; };
+		4DF5356B1B059B7400561C40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF535681B059B7400561C40 /* AppDelegate.m */; };
+		4DF5356C1B059B7400561C40 /* VideoRecorderGLKitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5356A1B059B7400561C40 /* VideoRecorderGLKitTestViewController.m */; };
+		4DF5356F1B059B8400561C40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5356D1B059B8400561C40 /* Info.plist */; };
+		4DF535711B059B8E00561C40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF535701B059B8E00561C40 /* main.m */; };
+		4DF535731B059E4100561C40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF535721B059E4100561C40 /* Default-568h@2x.png */; };
+		BCB5DDCF14E86899000AF3C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDCE14E86899000AF3C2 /* UIKit.framework */; };
+		BCB5DDD114E86899000AF3C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDD014E86899000AF3C2 /* Foundation.framework */; };
+		BCB5DDD314E86899000AF3C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */; };
+		BCB5DDF914E876DD000AF3C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */; };
+		BCB5DDFF14E87783000AF3C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */; };
+		BCB5DE0114E87789000AF3C2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D3F381A1ACBDB9A00BB413B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4D3F3CB31ACE431D00BB413B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4DC679451B05DC6800A89A06 /* VideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoRecorder.h; path = ../VideoRecorder/VideoRecorder.h; sourceTree = "<group>"; };
+		4DC679461B05DC6800A89A06 /* VideoRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VideoRecorder.mm; path = ../VideoRecorder/VideoRecorder.mm; sourceTree = "<group>"; };
+		4DC679471B05DC6800A89A06 /* VideoRecorderBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoRecorderBridge.h; path = ../VideoRecorder/VideoRecorderBridge.h; sourceTree = "<group>"; };
+		4DC679481B05DC6800A89A06 /* VideoRecorderBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VideoRecorderBridge.mm; path = ../VideoRecorder/VideoRecorderBridge.mm; sourceTree = "<group>"; };
+		4DF535671B059B7400561C40 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VideoRecorderGLKitTest/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4DF535681B059B7400561C40 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VideoRecorderGLKitTest/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4DF535691B059B7400561C40 /* VideoRecorderGLKitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoRecorderGLKitTestViewController.h; path = VideoRecorderGLKitTest/VideoRecorderGLKitTestViewController.h; sourceTree = SOURCE_ROOT; };
+		4DF5356A1B059B7400561C40 /* VideoRecorderGLKitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoRecorderGLKitTestViewController.m; path = VideoRecorderGLKitTest/VideoRecorderGLKitTestViewController.m; sourceTree = SOURCE_ROOT; };
+		4DF5356D1B059B8400561C40 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoRecorderGLKitTest/Info.plist; sourceTree = SOURCE_ROOT; };
+		4DF5356E1B059B8400561C40 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = VideoRecorderGLKitTest/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		4DF535701B059B8E00561C40 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VideoRecorderGLKitTest/main.m; sourceTree = SOURCE_ROOT; };
+		4DF535721B059E4100561C40 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCB5DDCA14E86899000AF3C2 /* VideoRecorderGLKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecorderGLKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5DDCE14E86899000AF3C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCB5DDD014E86899000AF3C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB5DDC714E86899000AF3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6793F1B05D09500A89A06 /* AssetsLibrary.framework in Frameworks */,
+				4DC6793E1B05D08B00A89A06 /* CoreMedia.framework in Frameworks */,
+				4DC6793D1B05D08000A89A06 /* CoreVideo.framework in Frameworks */,
+				4D3F3CB41ACE431D00BB413B /* GLKit.framework in Frameworks */,
+				BCB5DE0114E87789000AF3C2 /* OpenGLES.framework in Frameworks */,
+				BCB5DDFF14E87783000AF3C2 /* QuartzCore.framework in Frameworks */,
+				BCB5DDF914E876DD000AF3C2 /* AVFoundation.framework in Frameworks */,
+				BCB5DDCF14E86899000AF3C2 /* UIKit.framework in Frameworks */,
+				BCB5DDD114E86899000AF3C2 /* Foundation.framework in Frameworks */,
+				BCB5DDD314E86899000AF3C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC679411B05DC2600A89A06 /* VideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				4DC679451B05DC6800A89A06 /* VideoRecorder.h */,
+				4DC679461B05DC6800A89A06 /* VideoRecorder.mm */,
+				4DC679471B05DC6800A89A06 /* VideoRecorderBridge.h */,
+				4DC679481B05DC6800A89A06 /* VideoRecorderBridge.mm */,
+			);
+			name = VideoRecorder;
+			sourceTree = "<group>";
+		};
+		BCB5DDBF14E86899000AF3C2 = {
+			isa = PBXGroup;
+			children = (
+				4DF535721B059E4100561C40 /* Default-568h@2x.png */,
+				4DC679411B05DC2600A89A06 /* VideoRecorder */,
+				BCB5DDD414E86899000AF3C2 /* VideoRecorderGLKitTest */,
+				BCB5DDCD14E86899000AF3C2 /* Frameworks */,
+				BCB5DDCB14E86899000AF3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB5DDCB14E86899000AF3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5DDCA14E86899000AF3C2 /* VideoRecorderGLKitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB5DDCD14E86899000AF3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F3CB31ACE431D00BB413B /* GLKit.framework */,
+				4D3F381A1ACBDB9A00BB413B /* AssetsLibrary.framework */,
+				BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */,
+				BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */,
+				BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */,
+				BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */,
+				BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */,
+				BCB5DDCE14E86899000AF3C2 /* UIKit.framework */,
+				BCB5DDD014E86899000AF3C2 /* Foundation.framework */,
+				BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB5DDD414E86899000AF3C2 /* VideoRecorderGLKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				4DF535671B059B7400561C40 /* AppDelegate.h */,
+				4DF535681B059B7400561C40 /* AppDelegate.m */,
+				4DF535691B059B7400561C40 /* VideoRecorderGLKitTestViewController.h */,
+				4DF5356A1B059B7400561C40 /* VideoRecorderGLKitTestViewController.m */,
+				BCB5DDD514E86899000AF3C2 /* Supporting Files */,
+			);
+			name = VideoRecorderGLKitTest;
+			path = SimpleVideoFileFilter;
+			sourceTree = "<group>";
+		};
+		BCB5DDD514E86899000AF3C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5356D1B059B8400561C40 /* Info.plist */,
+				4DF5356E1B059B8400561C40 /* Prefix.pch */,
+				4DF535701B059B8E00561C40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB5DDC914E86899000AF3C2 /* VideoRecorderGLKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB5DDE214E86899000AF3C2 /* Build configuration list for PBXNativeTarget "VideoRecorderGLKitTest" */;
+			buildPhases = (
+				BCB5DDC614E86899000AF3C2 /* Sources */,
+				BCB5DDC714E86899000AF3C2 /* Frameworks */,
+				BCB5DDC814E86899000AF3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoRecorderGLKitTest;
+			productName = SimpleVideoFileFilter;
+			productReference = BCB5DDCA14E86899000AF3C2 /* VideoRecorderGLKitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB5DDC114E86899000AF3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cell Phone";
+			};
+			buildConfigurationList = BCB5DDC414E86899000AF3C2 /* Build configuration list for PBXProject "VideoRecorderGLKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB5DDBF14E86899000AF3C2;
+			productRefGroup = BCB5DDCB14E86899000AF3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB5DDC914E86899000AF3C2 /* VideoRecorderGLKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB5DDC814E86899000AF3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5356F1B059B8400561C40 /* Info.plist in Resources */,
+				4DF535731B059E4100561C40 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB5DDC614E86899000AF3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6794A1B05DC6800A89A06 /* VideoRecorderBridge.mm in Sources */,
+				4DF5356B1B059B7400561C40 /* AppDelegate.m in Sources */,
+				4DC679491B05DC6800A89A06 /* VideoRecorder.mm in Sources */,
+				4DF535711B059B8E00561C40 /* main.m in Sources */,
+				4DF5356C1B059B7400561C40 /* VideoRecorderGLKitTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCB5DDE014E86899000AF3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB5DDE114E86899000AF3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB5DDE314E86899000AF3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VideoRecorderGLKitTest/Prefix.pch;
+				INFOPLIST_FILE = VideoRecorderGLKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = VideoRecorderGLKitTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCB5DDE414E86899000AF3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VideoRecorderGLKitTest/Prefix.pch;
+				INFOPLIST_FILE = VideoRecorderGLKitTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = VideoRecorderGLKitTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB5DDC414E86899000AF3C2 /* Build configuration list for PBXProject "VideoRecorderGLKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5DDE014E86899000AF3C2 /* Debug */,
+				BCB5DDE114E86899000AF3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB5DDE214E86899000AF3C2 /* Build configuration list for PBXNativeTarget "VideoRecorderGLKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5DDE314E86899000AF3C2 /* Debug */,
+				BCB5DDE414E86899000AF3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB5DDC114E86899000AF3C2 /* Project object */;
+}

@@ -1,0 +1,15 @@
+./**/.DS_Store
+.DS_Store
+./bin
+proj.linux
+proj.w*
+proj.android/assets
+proj.android/bin
+proj.android/gen
+proj.android/obj
+proj.android/libs/armeabi
+proj.ios_mac/H3AccountBook.xcodeproj/project.xcworkspace/xcuserdata
+cocos2d/cocos/platform/android/java/local.properties
+cocos2d/plugin/protocols/proj.android/local.properties
+cocos2d/plugin/protocols/proj.android/obj
+.xcuserstate
